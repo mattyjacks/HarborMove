@@ -37,7 +37,7 @@ export default function PricingPage() {
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 via-blue-700/30 to-orange-700/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-950/60 via-blue-900/50 to-orange-900/60" />
         <div className="max-w-7xl mx-auto relative text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-4 text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.35)]">
             Pricing

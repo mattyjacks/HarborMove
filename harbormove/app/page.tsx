@@ -20,7 +20,6 @@ export default function Home() {
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="/services" className="text-gray-700 hover:text-blue-600 font-medium transition">Services</a>
-              <a href="#about" className="text-gray-700 hover:text-blue-600 font-medium transition">About</a>
               <a href="/pricing" className="text-gray-700 hover:text-blue-600 font-medium transition">Pricing</a>
               <a href="/contact" className="text-gray-700 hover:text-blue-600 font-medium transition">Contact</a>
             </div>
@@ -41,15 +40,15 @@ export default function Home() {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 via-blue-700/30 to-orange-700/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-950/60 via-blue-900/50 to-orange-900/60" />
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center">
-            <h2 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-blue-700 to-orange-600 bg-clip-text text-transparent leading-tight">
+            <h2 className="text-5xl md:text-7xl font-bold mb-6 text-white leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.35)]">
               Boston&apos;s Premier
               <br />
               Moving Company
             </h2>
-            <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
               Professional, reliable, and stress-free moving services throughout Boston and beyond.
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -60,7 +59,7 @@ export default function Home() {
                 Call (617) 555-0100
               </a>
             </div>
-            <div className="flex flex-wrap justify-center gap-8 text-gray-700">
+            <div className="flex flex-wrap justify-center gap-8 text-white/90">
               <div className="flex items-center space-x-2">
                 <CheckCircle className="h-6 w-6 text-green-600" />
                 <span className="font-semibold">Licensed & Insured</span>
