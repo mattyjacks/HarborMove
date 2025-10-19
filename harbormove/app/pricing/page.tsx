@@ -6,7 +6,7 @@ export default function PricingPage() {
       <nav className="bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50 border-b border-blue-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <div className="flex items-center space-x-3">
+            <a href="/" className="flex items-center space-x-3">
               <div className="bg-gradient-to-br from-blue-600 to-blue-700 p-3 rounded-xl shadow-lg">
                 <Truck className="h-8 w-8 text-white" />
               </div>
@@ -16,7 +16,7 @@ export default function PricingPage() {
                 </h1>
                 <p className="text-xs text-gray-600">Boston&apos;s Trusted Movers</p>
               </div>
-            </div>
+            </a>
             <div className="hidden md:flex space-x-8">
               <a href="/services" className="text-gray-700 hover:text-blue-600 font-medium transition">Services</a>
               <a href="/pricing" className="text-gray-700 hover:text-blue-600 font-medium transition">Pricing</a>
