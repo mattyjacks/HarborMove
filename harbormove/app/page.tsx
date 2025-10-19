@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Truck, Box, Home as HomeIcon, Shield, Phone, Mail, MapPin, Clock, Star, CheckCircle } from "lucide-react";
 
 export default function Home() {
@@ -16,7 +15,7 @@ export default function Home() {
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-transparent">
                   Harbor Move
                 </h1>
-                <p className="text-xs text-gray-600">Boston's Trusted Movers</p>
+                <p className="text-xs text-gray-600">Boston&apos;s Trusted Movers</p>
               </div>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -37,7 +36,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center">
             <h2 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-blue-700 to-orange-600 bg-clip-text text-transparent leading-tight">
-              Boston's Premier
+              Boston&apos;s Premier
               <br />
               Moving Company
             </h2>
@@ -130,13 +129,13 @@ export default function Home() {
           </h2>
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
             <p>
-              Founded in Boston's vibrant harbor district, <span className="font-semibold text-blue-600">Harbor Move</span> has been serving the Greater Boston area with exceptional moving services for over a decade. We understand that moving is more than just transporting belongings—it's about transitioning to a new chapter in your life.
+              Founded in Boston&apos;s vibrant harbor district, <span className="font-semibold text-blue-600">Harbor Move</span> has been serving the Greater Boston area with exceptional moving services for over a decade. We understand that moving is more than just transporting belongings—it&apos;s about transitioning to a new chapter in your life.
             </p>
             <p>
               Our team of professional movers is carefully trained, background-checked, and committed to treating your possessions with the utmost care. From historic brownstones in Back Bay to modern condos in Seaport, we know Boston inside and out.
             </p>
             <p>
-              Whether you're moving across the street or across the state, Harbor Move combines local expertise with professional service to make your move seamless. Experience the difference that dedicated, customer-focused service makes.
+              Whether you&apos;re moving across the street or across the state, Harbor Move combines local expertise with professional service to make your move seamless. Experience the difference that dedicated, customer-focused service makes.
             </p>
           </div>
         </div>
@@ -235,7 +234,7 @@ export default function Home() {
                 Our process is straightforward: share your vision, get a strategic assessment in plain English, and watch as we assemble the right team to build and execute without babysitting. We coordinate handpicked freelancers and operators who deliver quality at speed, reducing costs while increasing throughput. Every project is instrumented to track what actually moves revenue—not vanity metrics.
               </p>
               <p>
-                This Harbor Move website showcases the kind of modern, professional web design we create for clients. With clear messaging, intuitive navigation, and compelling visuals, sites like this don't just look great—they convert visitors into customers. Ready to scale smarter and faster? Visit <a href="https://mattyjacks.com" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-300 font-semibold transition">mattyjacks.com</a> and let's turn your vision into reality.
+                This Harbor Move website showcases the kind of modern, professional web design we create for clients. With clear messaging, intuitive navigation, and compelling visuals, sites like this don&apos;t just look great—they convert visitors into customers. Ready to scale smarter and faster? Visit <a href="https://mattyjacks.com" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-300 font-semibold transition">mattyjacks.com</a> and let&apos;s turn your vision into reality.
               </p>
             </div>
             <div className="mt-8 text-center">
@@ -256,7 +255,7 @@ export default function Home() {
             </div>
             <span className="text-2xl font-bold text-white">Harbor Move</span>
           </div>
-          <p className="mb-4">Boston's Premier Moving Company</p>
+          <p className="mb-4">Boston&apos;s Premier Moving Company</p>
           <p className="text-sm">© 2024 Harbor Move. All rights reserved. Demo site by <a href="https://mattyjacks.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition">MattyJacks.com</a></p>
         </div>
       </footer>
