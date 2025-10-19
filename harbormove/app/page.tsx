@@ -19,11 +19,12 @@ export default function Home() {
               </div>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#services" className="text-gray-700 hover:text-blue-600 font-medium transition">Services</a>
+              <a href="/services" className="text-gray-700 hover:text-blue-600 font-medium transition">Services</a>
               <a href="#about" className="text-gray-700 hover:text-blue-600 font-medium transition">About</a>
-              <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition">Contact</a>
+              <a href="/pricing" className="text-gray-700 hover:text-blue-600 font-medium transition">Pricing</a>
+              <a href="/contact" className="text-gray-700 hover:text-blue-600 font-medium transition">Contact</a>
             </div>
-            <a href="#contact" className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition shadow-lg hover:shadow-xl transform hover:scale-105">
+            <a href="/contact" className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition shadow-lg hover:shadow-xl transform hover:scale-105">
               Get a Quote
             </a>
           </div>
@@ -31,8 +32,16 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-orange-600/10"></div>
+      <section
+        className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden"
+        style={{
+          backgroundImage:
+            "url('/images/pexels/pexels-cottonbro-4569340 moving family with boxes image.jpg')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 via-blue-700/30 to-orange-700/40" />
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center">
             <h2 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-blue-700 to-orange-600 bg-clip-text text-transparent leading-tight">
@@ -44,7 +53,7 @@ export default function Home() {
               Professional, reliable, and stress-free moving services throughout Boston and beyond.
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-12">
-              <a href="#contact" className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-blue-800 transition shadow-xl hover:shadow-2xl transform hover:scale-105">
+              <a href="/contact" className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-blue-800 transition shadow-xl hover:shadow-2xl transform hover:scale-105">
                 Schedule Your Move
               </a>
               <a href="tel:617-555-0100" className="bg-white text-blue-600 px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-50 transition shadow-xl border-2 border-blue-600">
